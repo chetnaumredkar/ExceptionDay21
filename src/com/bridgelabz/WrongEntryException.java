@@ -39,12 +39,12 @@ class UserEntryDetails1   {
 	catch(WrongEntryException w) {
 		w.printStackTrace();
 	}
-	System.out.println("Exception excecuted");
+	System.out.println("Exception not required");
 
 }
 	public static void main(String[] args) {
 		//checkValidphonenumber("12768728");
-		//System.out.println("hello");
+		
 		checkValidfirstname("Finny");
 	}
 	}
